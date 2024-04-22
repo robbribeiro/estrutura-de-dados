@@ -41,21 +41,21 @@ void imprime(celula *le)
     printf("NULL\n");
 }
 
-int main()
-{
-    celula *le = malloc(sizeof(celula));
-    le->prox = NULL;
+// int main()
+// {
+//     celula *le = malloc(sizeof(celula));
+//     le->prox = NULL;
 
-    insere_inicio(le, 5);
-    insere_inicio(le, 10);
-    insere_inicio(le, 15);
+//     insere_inicio(le, 5);
+//     insere_inicio(le, 10);
+//     insere_inicio(le, 15);
 
-    imprime(le);
+//     imprime(le);
 
-    insere_antes(le, 20, 10);
-    insere_antes(le, 25, 100);
+//     insere_antes(le, 20, 10);
+//     insere_antes(le, 25, 100);
 
-    imprime(le);
+//     imprime(le);
 
 //     return 0;
 // }
